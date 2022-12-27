@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --color_1: #03caa9;
+    --color_2:#37323d;
+    --color_3:white;
+    --color_4:#f5f1f8;
+    --Footer:#323134;
+    --black: rgb(0, 0, 0);
+}
+.active {
+    color: var(--color_1) !important;
+}
+.icon {
+    margin-right: 5px;
+}
+#Header {
+    color: var(--color_4);
+    background-color: var(--color_2);    
+    padding: 10px 0 15px 0;
+    opacity: 0.8;
+}
+.dropdown-item{
+    color: var(--color_2) !important;
+}
+#Header button {
+    background-color: transparent;
+    border-style: none;
+    padding: 0;
+}
+#Header a{
+    text-decoration: none;
+    color: var(--color_4);
+}
